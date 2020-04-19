@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/indexcss.css">
+    <script src="JS/indexjs.js"></script>
+    <title>MeuPortifólio.com.br</title>
+
+    <script src="JS/swiper.min.js"></script>
+    <link rel="stylesheet" href="CSS/swiper.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+
+</head>
+<body class="grade">
+    <Header>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Logo</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+              </ul>
+            </div>
+          </nav>
+
+    </Header>
+
+
+    <Main>
+        <div id="buttons">
+            <button id="btn1" onclick="onOff()">Seja colaborador</button>
+        <div> 
+        <img src="Img\secadastre.jpeg" alt="imagem">
+    </Main>
+
+<Aside>
+    <h2 style="text-align: center; color: #8f8f8f ; text-shadow: 0 0 5px #8e8e8ead, 0 0 10px rgb(255, 255, 255);">CATEGORIAS</h2>
+    <h2 style="text-align: center; color: #8f8f8f ; text-shadow: 0 0 5px #8e8e8ead, 0 0 10px rgb(255, 255, 255);">CATEGORIAS</h2>
+    <h2 style="text-align: center; color: #8f8f8f ; text-shadow: 0 0 5px #8e8e8ead, 0 0 10px rgb(255, 255, 255);">CATEGORIAS</h2>
+    <h2 style="text-align: center; color: #8f8f8f ; text-shadow: 0 0 5px #8e8e8ead, 0 0 10px rgb(255, 255, 255);">CATEGORIAS</h2>
+
+    <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> </div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide" ></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+    <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> </div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide" ></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</Aside>
+
+
+<Footer>
+
+
+   
+
+
+</Footer>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+    <script src="scripts.js"></script>
+</body>
+    <!-- Modal -->
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+            <form action="">
+                <div class="input-wrapper">
+                    <label for="title">Título da Ideia</label>
+                    <input type="text" name="title">
+                </div>
+            
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" id="" cols="30" rows="5"></textarea>
+                </div>
+            
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="url" name="image">
+                </div>
+                <button>Salvar</button>
+                <a href="#" onclick="onOff()">Voltar</a>
+            </form>
+        </div>
+    </div>
+</html>
