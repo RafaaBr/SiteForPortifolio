@@ -15,7 +15,6 @@
     height: 70vh;
 }
 .colaborator .floatbutton #btn1{
-    float: left;
     position: absolute;
     display: relative;
     background-color: black;

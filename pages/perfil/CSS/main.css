@@ -1,0 +1,27 @@
+main{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+main #left{
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+main #left-id p{
+    text-align: center;
+    color: white;
+}
+
+main #right{
+    grid-column: 2;
+}
+
+aside #cards{
+    display: inline-block;
+    padding: 5px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+

@@ -2,16 +2,13 @@ header{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     justify-items: center;
+    align-items: center;
     text-align: center;
     height: 50px;
-}
-header .grade .home{
-    grid-column: 1;
 }
 
 header .navbar{
     grid-column: 2;
-
 }
 
 header .nav-item{
@@ -21,10 +18,12 @@ header .nav-item{
 header .nav-item a{
     text-decoration: none;
     font-size: 18px;
-    padding-left: 15px;
+    margin-left: 15px;
     transition: 0.2s;
+    padding-left: 2px;
 }
 
-header .nav-item .nav-link:hover{
+header .nav-item a.nav-link:hover{
     color: blanchedalmond;
-}
+    transform: translateY(2px);
+} 
