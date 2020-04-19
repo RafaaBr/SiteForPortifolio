@@ -1,0 +1,30 @@
+header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-items: center;
+    text-align: center;
+    height: 50px;
+}
+header .grade .home{
+    grid-column: 1;
+}
+
+header .navbar{
+    grid-column: 2;
+
+}
+
+header .nav-item{
+    display: inline-block;
+}
+
+header .nav-item a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 15px;
+    transition: 0.2s;
+}
+
+header .nav-item .nav-link:hover{
+    color: blanchedalmond;
+}

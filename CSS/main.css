@@ -12,7 +12,7 @@
 
 .colaborator img{
     width: 100vh;
-    height: 100vh;
+    height: 70vh;
 }
 .colaborator .floatbutton #btn1{
     float: left;
@@ -36,64 +36,27 @@ aside {
     text-align: center;
 }
 
-
-form input, 
-form textarea {
-    width: 100%;
-    border-radius: 6px;
-    border: 1px solid rgba(146, 243, 146, 0.5);
-    outline: none;
-    font-size: 16px;
-    box-sizing: border-box;
-    padding: 8px;
-    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
-    color: white;
-
-}
-
-
-form a{
-    border-radius: 6px;
-    outline: none;
-    font-size: 16px;
-    box-sizing: border-box;
-    padding: 10px 40px;
-    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
-    transition: 400ms;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
-form a:hover{
-    text-decoration: none;
-    background-color: rgb(255, 0, 0);
-    color: white;
-}
-
-form button {
-    background-color: white;
-    width: 150px;
-    height: 40px;
-    border-radius: 6px;
-    cursor: pointer;
-    
-    margin: 0 0 0 15px;
-    outline: none;
-    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
-    transition: 400ms;
-}
-
-form button:hover{
-    background-color: rgb(55, 0, 255);
-    color: white;
-    text-decoration: none;
-    outline: none;
-}
-#modal label{
+.btn2 {
+     /* Tamanho */
+    height: 30px;
+    line-height: 54px;
     font-size: 15px;
-    line-height: 25px;
-}
-#modal.hide{
-    opacity: 0;
-    visibility: hidden;
+    padding: 0 28px;
+
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    -webkit-box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
 }
