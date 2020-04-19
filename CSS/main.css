@@ -1,0 +1,99 @@
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.colaborator img{
+    width: 100vh;
+    height: 100vh;
+}
+.colaborator .floatbutton #btn1{
+    float: left;
+    position: absolute;
+    display: relative;
+    background-color: black;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 50px;
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+aside {
+    background-color: #FFF;
+
+    text-align: center;
+}
+
+
+form input, 
+form textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid rgba(146, 243, 146, 0.5);
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 8px;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
+    color: white;
+
+}
+
+
+form a{
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
+    transition: 400ms;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+form a:hover{
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+form button {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    margin: 0 0 0 15px;
+    outline: none;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.8);
+    transition: 400ms;
+}
+
+form button:hover{
+    background-color: rgb(55, 0, 255);
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+#modal label{
+    font-size: 15px;
+    line-height: 25px;
+}
+#modal.hide{
+    opacity: 0;
+    visibility: hidden;
+}
